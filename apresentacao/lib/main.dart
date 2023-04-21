@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        backgroundColor: Colors.grey[900],
+        backgroundColor: Colors.black,
         body: 
         SafeArea(
           child: 
@@ -60,6 +60,7 @@ class MyApp extends StatelessWidget {
               ),
 
               Card(
+                shadowColor: Colors.white,
                margin: EdgeInsets.symmetric(
                 vertical: 10,
                 horizontal: 25,
